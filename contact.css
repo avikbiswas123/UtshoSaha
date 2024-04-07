@@ -1,0 +1,282 @@
+.left {
+    font-family: 'Sail';
+    font-weight: 600;
+    font-size: 50px;
+
+    background: rgba(0, 128, 128, 1);
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100vw;
+
+    box-shadow: 1vh 1vh 5vh black;
+    background-color: rgb(173, 171, 171);
+}
+
+.right ul {
+
+    list-style: none;
+    display: flex;
+    gap: 1vw;
+
+    font-size: 25px;
+
+}
+
+.right ul li a {
+    text-decoration: none;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(54, 51, 51);
+}
+
+.right ul li a:hover {
+    transition: all ease 1.1s;
+
+    background: rgba(0, 128, 128, 0.8);
+
+    color: aliceblue;
+    cursor: pointer;
+}
+
+body {
+
+    background-color: rgba(59, 59, 59, 0.24);
+
+    color: rgb(54, 51, 51);
+    overflow-x: hidden;
+
+}
+
+.follow {
+    top: 17vh;
+    left: 15vw;
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(0, 128, 128, 1);
+
+}
+
+.facebook {
+
+    position: relative;
+    top: 23vh;
+    height: 30vh;
+    width: 70vw;
+    font-size: 10vw;
+    text-align: center;
+    color: rgba(0, 128, 128, 1);
+    background-color: rgb(173, 171, 171);
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3vh 2vh 5vh black;
+}
+
+.instagram {
+
+
+
+
+    position: relative;
+    top: 26vh;
+    height: 30vh;
+    width: 70vw;
+    font-size: 10vw;
+    text-align: center;
+    color: rgba(0, 128, 128, 1);
+    background-color: rgb(173, 171, 171);
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3vh 2vh 5vh black;
+}
+
+.linkedin {
+
+
+
+
+
+
+
+
+    position: relative;
+    top: 29vh;
+    height: 30vh;
+    width: 70vw;
+    font-size: 10vw;
+    text-align: center;
+    color: rgba(0, 128, 128, 1);
+    background-color: rgb(173, 171, 171);
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3vh 2vh 5vh black;
+
+
+
+
+
+
+
+
+}
+
+.coderepository {
+
+    position: relative;
+    top: 38vh;
+    left: 15vw;
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(0, 128, 128, 1);
+
+
+
+
+
+}
+
+.github {
+
+    position: relative;
+    top: 43vh;
+    height: 30vh;
+    width: 70vw;
+    font-size: 10vw;
+    text-align: center;
+    color: rgba(0, 128, 128, 1);
+    background-color: rgb(173, 171, 171);
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3vh 2vh 5vh black;
+
+
+}
+.mailme{
+
+
+
+    position: relative;
+    top: 52vh;
+    left: 15vw;
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(0, 128, 128, 1);
+
+
+
+
+
+}
+.mail{
+
+
+
+    position: relative;
+    top: 58vh;
+    height: 30vh;
+    width: 70vw;
+    font-size: 10vw;
+    text-align: center;
+    color: rgba(0, 128, 128, 1);
+    background-color: rgb(173, 171, 171);
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3vh 2vh 5vh black;
+
+}
+.callme{
+
+
+
+    position: relative;
+    top: 65vh;
+    left: 15vw;
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(0, 128, 128, 1);
+
+
+}
+.call{
+
+
+
+
+    position: relative;
+    top: 71vh;
+    height: 30vh;
+    width: 70vw;
+    font-size: 10vw;
+    text-align: center;
+    color: rgba(0, 128, 128, 1);
+    background-color: rgb(173, 171, 171);
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3vh 2vh 5vh black;
+
+
+
+
+
+}
+a{
+
+text-decoration: none;
+
+
+left: 15vw;
+
+}
+.call:hover,.mail:hover,.github:hover,.linkedin:hover,.facebook:hover,.instagram:hover{
+
+
+background-color: rgba(75, 75, 75, 0.5);
+
+}
+.whatsappconnect{
+
+
+
+    position: relative;
+    top: 76vh;
+    left: 15vw;
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(0, 128, 128, 1);
+
+
+}

@@ -1,0 +1,364 @@
+.left {
+    font-family: 'Sail';
+    font-weight: 600;
+    font-size: 50px;
+
+    background: rgba(0, 128, 128, 1);
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100vw;
+
+    box-shadow: 1vh 1vh 5vh black;
+    background-color: rgb(173, 171, 171);
+}
+
+.right ul {
+
+    list-style: none;
+    display: flex;
+    gap: 1vw;
+
+    font-size: 25px;
+
+}
+
+.right ul li a {
+    text-decoration: none;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(54, 51, 51);
+}
+
+.right ul li a:hover {
+    transition: all ease 1.1s;
+
+    background: rgba(0, 128, 128, 0.8);
+
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.intro {
+    background-color: rgba(75, 75, 75, 0.5);
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    top: 21vh;
+    left: 10vw;
+    z-index: -999;
+
+}
+
+.name {
+
+    font-family: Allura;
+    font-weight: 600;
+    font-size: 100px;
+    text-align: center;
+    height: 100vw;
+    color: rgba(0, 128, 128, 1);
+
+}
+
+.work {
+
+
+
+    font-family: 'Croissant One';
+    color: rgba(0, 128, 128, 1);
+}
+
+.text {
+    position: relative;
+    top: 17vh;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 500;
+    width: 40vw;
+    left: 23vw;
+    height: 10vh;
+    text-align: center;
+
+
+
+}
+
+.typed-cursor {
+
+    color: rgba(0, 128, 128, 1);
+
+
+
+}
+
+hr {
+    position: relative;
+    top: 25vh;
+    font-weight: 1000;
+    height: .7vh;
+    background-color: black;
+
+}
+
+body {
+
+    background-color: rgba(59, 59, 59, 0.24);
+    overflow-x: hidden;
+    color: rgb(54, 51, 51);
+
+}
+
+.image {
+
+    position: absolute;
+
+    left: 60vw;
+    top: 21vh;
+
+
+}
+
+img {
+
+    height: 60vh;
+    width: 20vw;
+
+}
+
+.imageholder {
+
+    background-color: rgba(0, 128, 128, 1);
+
+    height: 60vh;
+    position: relative;
+    width: 30vw;
+    left: 65vw;
+    top: 9.8vh;
+    z-index: -999;
+}
+
+.welcomeing {
+
+
+    position: relative;
+    top: 40vh;
+    left: 2vw;
+
+
+}
+
+.letter {
+    color: rgba(0, 128, 128, 1);
+    background-color: grey;
+    position: absolute;
+
+
+}
+
+.pastecol {
+
+    background-color: rgba(0, 128, 128, 1);
+    height: 25vh;
+    width: 30vw;
+    position: absolute;
+    top: -4vh;
+    left: -2vw;
+}
+
+.grey {
+    top: 1vh;
+    left: 62vw;
+    background-color: rgb(178, 177, 177);
+    position: absolute;
+    width: 30vw;
+    height: 25vh;
+}
+
+.CAD {
+
+    top: 80vh;
+    position: relative;
+
+
+
+
+}
+
+.solidworks img {
+    left: -50vw;
+    position: absolute;
+    top: -10vh;
+    height: 10vh;
+    width: 8vw;
+
+
+
+
+
+
+
+}
+
+.textcad h1 {
+    top: 21vh;
+    position: absolute;
+    font-size: 30px;
+    left: 10vw;
+
+}
+
+.fusion img {
+
+    left: -24vw;
+    height: 10vh;
+    width: 8vw;
+    top: -10vh;
+    position: absolute;
+
+}
+
+.textfusion {
+
+    position: absolute;
+
+    font-size: 20px;
+    top: 21vh;
+    left: 36vw;
+
+
+}
+
+.coding {
+
+    position: relative;
+
+    top: 120vh;
+
+
+}
+
+.c img {
+
+    position: absolute;
+    top: -10vh;
+    height: 14vh;
+    width: 12vw;
+    left: -52vw;
+}
+
+.ctext h1 {
+
+    position: absolute;
+    font-size: 30px;
+    top: 24vh;
+    left: 8vw;
+
+}
+
+.python img {
+
+    position: absolute;
+    top: -11vh;
+    height: 18vh;
+    width: 16vw;
+    left: -27vw;
+
+
+}
+.pythontext{
+
+
+position: absolute;
+
+font-size: 22px;
+top: 23vh;
+left: 40vw;
+
+
+}
+.office{
+
+position: relative;
+
+top: 160vh;
+
+
+
+
+}
+.msword img{
+
+
+    position: absolute;
+    top: -11vh;
+    height: 14vh;
+    width: 8vw;
+    left: -50vw;
+}
+.mswordtext {
+
+position: absolute;
+font-size: 21px;
+top: 28vh;
+left: 10vw;
+}
+.msexcel img{
+    position: absolute;
+    top: -10vh;
+    height: 14vh;
+    width: 8vw;
+    left: -20vw;
+
+
+}
+.msexceltext{
+
+
+    position: absolute;
+    font-size: 21px;
+    top: 28vh;
+    left: 40vw;
+
+
+
+}
+.graphicsdesign{
+
+
+position: relative;
+
+top: 205vh;
+
+}
+.canva img{
+
+position: absolute;
+
+top: -10vh;
+height: 18vh;
+width: 12vw;
+left: -50vw;
+
+}
+.canvatext{
+    position: absolute;
+    font-size: 21px;
+    top: 28vh;
+    left: 10vw;
+
+
+
+
+}
