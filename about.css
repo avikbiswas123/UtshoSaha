@@ -155,7 +155,7 @@ position: relative;
 .letter{
 position: relative;
 background-color: grey;
-color: rgba(0, 128, 128, 1);
+color: rgb(1, 50, 50);
 padding-left: 1vw;
 width: 50vw;
 top: -52vh;
@@ -173,7 +173,7 @@ left: 45vw;
 }
 #CVID{
 text-decoration: none;
-color: rgba(0, 128, 128, 1);
+color: rgb(1, 50, 50);
 
 font-weight: 800;
 

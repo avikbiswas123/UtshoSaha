@@ -160,7 +160,7 @@ img {
 }
 
 .letter {
-    color: rgba(0, 128, 128, 1);
+    color: rgb(1, 50, 50);
     background-color: grey;
     position: absolute;
 
