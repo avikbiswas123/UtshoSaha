@@ -118,6 +118,7 @@ hr {
 }
 
 body {
+    overflow-x: hidden;
 
     background-color: rgba(59, 59, 59, 0.24);
     overflow-x: hidden;
@@ -310,8 +311,6 @@ font-size: 200%;
 
 
 position: absolute;
-
-font-size: 100%;
 top: 24vh;
 left: 40vw;
 
@@ -401,4 +400,86 @@ left: -50vw;
     font-size: 130%;
     top: 28vh;
     left: 10vw;
+}
+@media only screen and (max-width: 400px){
+
+
+.text{
+
+font-size: 10vw;
+
+
+
+
+
+
+
+}
+.pastecol{
+
+
+top: -17vh;
+
+
+
+
+
+}
+.letter{
+top: -13vh;
+
+
+
+}
+.CAD{
+
+top: 125vh;
+
+
+
+
+}
+.textcad h1{
+
+font-size: 5vw;
+
+
+
+
+
+}
+.textfusion{
+top: 21vh;
+font-size: 2.5vw;
+left: 40vw;
+}
+.coding h1{
+
+font-size: 5vw;
+
+
+}
+.coding{
+top: 145vh;
+
+
+}
+.office h1{
+
+
+font-size: 5vw;
+
+}
+.graphicsdesign h1{
+font-size: 5vw;
+
+
+}
+.CAD h1{
+
+font-size: 5vw;
+
+
+}
+
 }
