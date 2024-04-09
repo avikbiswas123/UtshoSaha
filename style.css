@@ -460,7 +460,7 @@ font-size: 5vw;
 
 }
 .coding{
-top: 145vh;
+top: 155vh;
 
 
 }
@@ -468,6 +468,12 @@ top: 145vh;
 
 
 font-size: 5vw;
+
+}
+.office{
+
+top:190vh ;
+
 
 }
 .graphicsdesign h1{
@@ -481,5 +487,10 @@ font-size: 5vw;
 
 
 }
+.graphicsdesign{
 
+top: 240vh;
+
+
+}
 }
