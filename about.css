@@ -55,12 +55,12 @@ body {
     background-color: rgba(59, 59, 59, 0.24);
 
     color: rgb(54, 51, 51);
-overflow-y: hidden;
+
 }
 
 .aboutcontainer {
 
-    position: fixed;
+     position: fixed; 
 
     display: flex;
     height: 200vh;
@@ -91,7 +91,7 @@ img {
 .contact {
 
     position: absolute;
-    top: 86vh;
+    top: 76vh;
 
     color: white;
     font-size: 25px;
@@ -192,6 +192,72 @@ background-color: grey;
 
 
 text-decoration: underline;
+
+
+}
+@media only screen and (max-width: 1300px){
+
+
+.contact{
+
+top: 89vh;
+
+
+font-size: 3vw;
+
+}
+
+
+
+
+.logo{
+
+font-size: 3vw;
+
+}
+
+
+
+.name{
+
+font-size: 3vw;
+
+}
+
+
+
+
+}
+@media only screen and (max-height: 600px){
+
+
+.contact{
+
+
+top: 90vh;
+
+font-size: 3vh;
+
+}
+
+
+.logo{
+
+
+font-size: 3vh;
+
+
+}
+
+
+
+.name{
+
+font-size: 3vh;
+
+
+}
+
 
 
 }

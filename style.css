@@ -14,7 +14,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     position: fixed;
-    z-index: 999;
+    z-index: 1999;
     width: 100vw;
 
     box-shadow: 1vh 1vh 5vh black;
@@ -49,7 +49,11 @@ nav {
     color: aliceblue;
     cursor: pointer;
 }
+.text{
+position: absolute;
+z-index: 1000;
 
+}
 .intro {
     background-color: rgba(75, 75, 75, 0.5);
     height: 60vh;
@@ -65,16 +69,17 @@ nav {
 
     font-family: Allura;
     font-weight: 600;
-    font-size: 100px;
+    font-size: 120%;
     text-align: center;
     height: 100vw;
     color: rgba(0, 128, 128, 1);
-
+position: relative;
+z-index: 1000;
 }
 
 .work {
 
-
+font-size: 120%;
 
     font-family: 'Croissant One';
     color: rgba(0, 128, 128, 1);
@@ -84,7 +89,7 @@ nav {
     position: relative;
     top: 17vh;
     font-family: Poppins;
-    font-size: 70px;
+    font-size: 450%;
     font-weight: 500;
     width: 40vw;
     left: 23vw;
@@ -164,8 +169,19 @@ img {
     background-color: grey;
     position: absolute;
 
-
+right: 10vw;
 }
+.letter h1{
+
+font-size: 200%;
+
+
+}.letter h4{
+
+    font-size: 140%;
+    
+    
+    }
 
 .pastecol {
 
@@ -178,8 +194,8 @@ img {
 }
 
 .grey {
-    top: 1vh;
-    left: 62vw;
+    top: 16vh;
+    left: 60vw;
     background-color: rgb(178, 177, 177);
     position: absolute;
     width: 30vw;
@@ -188,14 +204,19 @@ img {
 
 .CAD {
 
-    top: 80vh;
+    top: 105vh;
     position: relative;
 
 
 
 
 }
+.CAD h1{
 
+font-size: 200%;
+
+
+}
 .solidworks img {
     left: -50vw;
     position: absolute;
@@ -214,7 +235,7 @@ img {
 .textcad h1 {
     top: 21vh;
     position: absolute;
-    font-size: 30px;
+    font-size:200%;
     left: 10vw;
 
 }
@@ -232,10 +253,18 @@ img {
 .textfusion {
 
     position: absolute;
-
-    font-size: 20px;
+font-size: 100%;
+    
     top: 21vh;
     left: 36vw;
+
+
+}
+.coding h1{
+
+
+font-size: 200%;
+
 
 
 }
@@ -244,7 +273,7 @@ img {
 
     position: relative;
 
-    top: 120vh;
+    top: 140vh;
 
 
 }
@@ -261,7 +290,7 @@ img {
 .ctext h1 {
 
     position: absolute;
-    font-size: 30px;
+    font-size:200%;
     top: 24vh;
     left: 8vw;
 
@@ -282,8 +311,8 @@ img {
 
 position: absolute;
 
-font-size: 22px;
-top: 23vh;
+font-size: 100%;
+top: 24vh;
 left: 40vw;
 
 
@@ -292,7 +321,16 @@ left: 40vw;
 
 position: relative;
 
-top: 160vh;
+top: 180vh;
+
+
+
+
+}
+.office h1{
+
+font-size: 200%;
+
 
 
 
@@ -310,7 +348,7 @@ top: 160vh;
 .mswordtext {
 
 position: absolute;
-font-size: 21px;
+font-size: 100%;
 top: 28vh;
 left: 10vw;
 }
@@ -327,7 +365,7 @@ left: 10vw;
 
 
     position: absolute;
-    font-size: 21px;
+    font-size: 100%;
     top: 28vh;
     left: 40vw;
 
@@ -339,7 +377,13 @@ left: 10vw;
 
 position: relative;
 
-top: 205vh;
+top: 225vh;
+
+}
+.graphicsdesign h1{
+
+font-size: 200%;
+
 
 }
 .canva img{
@@ -354,11 +398,7 @@ left: -50vw;
 }
 .canvatext{
     position: absolute;
-    font-size: 21px;
+    font-size: 130%;
     top: 28vh;
     left: 10vw;
-
-
-
-
 }

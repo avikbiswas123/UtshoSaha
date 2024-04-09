@@ -55,7 +55,7 @@ body {
     background-color: rgba(59, 59, 59, 0.24);
 
     color: rgb(54, 51, 51);
-    overflow-x: hidden;
+    overflow-x: hidden; 
 
 }
 
@@ -280,3 +280,33 @@ background-color: rgba(75, 75, 75, 0.5);
 
 
 }
+
+.sidemenu ul {
+    
+        list-style: none;
+        display: flex;
+        gap: 30.6px;
+    flex-direction: column;
+        font-size: 5vh;
+    height: 40vh;
+    
+    }
+    .sidemenu ul li{
+    
+    
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    .sidemenu ul li  a{
+        text-decoration: none;
+    
+        padding-left:2vw;
+        padding-right:2vw ;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        color: rgb(54, 51, 51);
+    position:relative;
+    top: 2vh;
+    left: -6.3vw;
+    }

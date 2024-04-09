@@ -16,7 +16,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Croissant+One&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sail&display=swap" rel="stylesheet">
-    <title>Document</title>
+<link
+href="https://fonts.googleapis.com/css2?family=Allura&family=Croissant+One&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sail&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="responsive.css">
+<title>Document</title>
 </head>
 <body>
     <header>
@@ -33,12 +39,25 @@
 
 
 </ul></div>
+ <div class="hamburger" onclick="toggleNavbar()">
 
+    <i class="material-icons" style="font-size:48px;color: rgba(0, 128, 128, 1)" >menu</i>
+
+</div>
 
 
 
 </nav>
-
+<div class="sidemenu"><ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+    
+    
+</ul></div> 
+<div class="close" onclick="close()"> <i class="material-icons" style="font-size:36px">close</i></div>
 
 
     </header>
@@ -265,6 +284,6 @@ MSExcel
         typeSpeed: 50,
         loop:true,
       });</script>
-
+<script  src="index.js"></script>
 </body>
 </html>

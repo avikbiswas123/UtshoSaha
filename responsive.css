@@ -1,0 +1,105 @@
+.hamburger{
+
+    display: none;
+    border: none;
+    cursor: pointer;
+    }
+    .sidemenu ul {
+  
+        list-style: none;
+        display: flex;
+        gap: 30.6px;
+    flex-direction: column;
+        font-size: 5vh;
+    height: 40vh;
+    
+    }
+    .sidemenu ul li{
+    
+    
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    .sidemenu ul li  a{
+        text-decoration: none;
+    
+        padding-left:2vw;
+        padding-right:13vw ;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        color: rgb(54, 51, 51);
+    position:relative;
+    top: 2vh;
+    right: 5.8vh;
+    }
+    
+    .sidemenu ul li a:hover {
+        transition: all ease 1.1s;
+    margin: 0;
+        background: rgba(0, 128, 128, 0.8);
+    transform: scale(2vw);
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .sidemenu{
+    
+    position:absolute;
+    z-index: 2000;
+    padding: 0px;
+    right: 0vw;
+    display: none;
+    
+    left: 70vw;
+    
+    background-color:  rgb(173, 171, 171);
+
+    height: 500vh;
+    }
+    .sidemenu.active{
+    
+    padding: 0px;
+    
+    display: flex;
+    
+    
+    
+    }
+    
+    @media only screen and (max-width: 900px){
+    
+        .right{
+        
+        display: none;
+        
+        
+        }
+        
+        
+        .hamburger{
+    
+    
+    display: block;
+    
+        }
+        
+        }
+         .close{
+    
+    
+    position: absolute;
+    top: 5vh;
+    left: 65vw;
+    z-index: 1000;
+    display: none;
+    
+         }
+         .close .active{
+    
+    display: block;
+    
+    
+    
+    
+    
+         }
