@@ -10,3 +10,4 @@ document.querySelectorAll('.sidemenu ul li a').forEach(item => {
         sidemenu.classList.remove('active');
     });
 });
+console.log("%cWELCOME! ","color:red;font-size:100px");
