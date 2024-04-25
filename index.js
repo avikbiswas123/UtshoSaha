@@ -11,3 +11,4 @@ document.querySelectorAll('.sidemenu ul li a').forEach(item => {
     });
 });
 console.log("%cWELCOME! ","color:red;font-size:100px");
+console.log("%cThis site is managed and developed by Avik Biswas","color:blue;size:20px");
